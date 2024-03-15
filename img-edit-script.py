@@ -1,7 +1,9 @@
 import os, sys
 from PIL import Image
-#  enter directory of image files in save dir output in place of x
+#  Replace x in save dir with directory where you want new files to be saved
 savedir = "x"
+# Replace y with directory of files
+os.chdir('y')
 filedir = os.listdir()
 
 for infile in filedir:
